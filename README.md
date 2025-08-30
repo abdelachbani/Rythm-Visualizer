@@ -1,5 +1,9 @@
 <div align="center">
 
+<p>
+  <img src="logo.svg" alt="Rythm Visualizer logo" width="96" height="96">
+</p>
+
 <h1>Rythm Visualizer</h1>
 
 <p>An interactive, audio‑reactive visualizer built with p5.js and p5.sound.</p>
@@ -41,7 +45,7 @@
 
 ### Run locally (no build required)
 1. Clone or download this repository.
-2. Open index.html by double‑clicking it, or serve the directory with any static server.
+2. Open index.html by double‑clicking it or serve the directory with any static server.
 3. Click "Choose file" and select an audio file (e.g., MP3). The track will load and start looping.
 
 That’s it! Everything runs client‑side.
@@ -50,7 +54,7 @@ That’s it! Everything runs client‑side.
 ## Usage Guide
 
 - Audio
-  - Choose file: opens a file picker; the selected audio will loop.
+  - Choose a file: opens a file picker; the selected audio will loop.
   - Play/Pause: toggles playback.
 - Controls row
   - Toggle Theme: switches between light and dark themes.
@@ -73,7 +77,7 @@ That’s it! Everything runs client‑side.
 
 ## Architecture
 - index.html
-  - Minimal HTML shell; loads p5.js and p5.sound from CDN and the app script (sketch.js). Title shows "Rythm Remixer".
+  - Minimal HTML shell; loads p5.js and p5.sound from CDN and the app script (sketch.js).
 - sketch.js
   - Main p5 sketch: sets up audio analysis, draws visuals, handles UI (panel, buttons, sliders), and defines interactions.
   - Applies theme classes to the document body.
@@ -97,7 +101,7 @@ The repository includes local copies of p5.js and p5.sound.min.js. To run withou
 ## Browser permissions and audio notes
 - User gesture: Most browsers require a user interaction before audio can start. Clicking Play or choosing a file satisfies this.
 - Supported formats: MP3/M4A/OGG support varies by browser. MP3 is widely supported.
-- Large files: Decoding very large audio files may take a moment.
+- Large files: Decoding huge audio files may take a moment.
 
 
 ## Performance
