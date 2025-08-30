@@ -30,7 +30,7 @@
 
 
 ## Demo
->> 
+> [>>CLICK HERE<<](https://abdelachbani.github.io/Rythm-Visualizer/)
 
 
 ## Getting Started
