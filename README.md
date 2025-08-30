@@ -34,7 +34,7 @@
 
 
 ## Demo
-> [>>CLICK HERE<<](https://abdelachbani.github.io/Rythm-Visualizer/)
+> <a href="https://abdelachbani.github.io/Rythm-Visualizer/" target="_blank" rel="noopener noreferrer">>>CLICK HERE<<</a>
 
 
 ## Getting Started
