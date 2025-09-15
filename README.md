@@ -10,6 +10,8 @@
 
 </div>
 
+## Demo
+> <a href="https://abdelachbani.github.io/Rythm-Visualizer/" target="_blank" rel="noopener noreferrer">>>CLICK HERE<<</a>
 
 ## Features
 - Audio‑reactive **visuals driven by FFT (Fast Fourier Transform) and amplitude analysis** (p5.sound)
@@ -31,11 +33,6 @@
   - E: Trigger an extra burst
 - Adaptive quality: dynamically adjusts particles, stars, bands, glow blur/scale, etc. to maintain a target FPS
 - Custom cursor: a neon ring cursor suited to the visualizer aesthetics
-
-
-## Demo
-> <a href="https://abdelachbani.github.io/Rythm-Visualizer/" target="_blank" rel="noopener noreferrer">>>CLICK HERE<<</a>
-
 
 ## Getting Started
 
